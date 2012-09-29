@@ -6,8 +6,8 @@ Really simple Python library for scraping property information out of Trulia.
 Example:
 --------
 
-    >> import trulia_fetcher
-    >> next(trulia_fetcher.get_data('San Francisco, CA'))
+    >> from trulia_fetcher import fetcher
+    >> next(fetcher.get_data('San Francisco, CA'))
     {u'_isDefault': False,
      u'addressForDisplay': u'Address Not Disclosed, San Francisco CA',
      u'addressForUrl': u'Apartment-San-Francisco-CA-94110',
