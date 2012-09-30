@@ -3,6 +3,13 @@ trulia_fetcher
 
 Really simple Python library for scraping property information out of Trulia.
 
+Dependencies:
+-------------
+
+* requests
+* lxml
+* BeautifulSoup
+
 Example:
 --------
 
